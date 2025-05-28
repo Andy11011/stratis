@@ -6,7 +6,7 @@ RUN apk add --no-cache git
 # Clone from GitHub
 # ADD https://api.github.com/repos/Andy11011/stratis-ui latest_commit
 ADD https://github.com/Andy11011/stratis-ui-legacy latest_commit
-RUN git clone https://github.com/Andy11011/stratis-ui.git /app
+RUN git clone https://github.com/Andy11011/stratis-ui-legacy.git /app
 
 # Set working directory
 WORKDIR /app
