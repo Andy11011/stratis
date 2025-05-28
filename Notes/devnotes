@@ -1,0 +1,8 @@
+# Clone the repository
+git clone https://github.com/Andy11011/stratis
+
+# Change directory to the repository
+cd stratis
+
+# Run the docker-compose file
+docker-compose up -d # -d runs the containers in the background
